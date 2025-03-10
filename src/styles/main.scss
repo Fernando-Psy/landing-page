@@ -1,13 +1,33 @@
-$corFundo: rgb(26, 4, 75);
+@use "base/header";
+@use "base/footer";
+@use "components/nav";
+@use "components/section";
+
+
+:root {
+    --color-primary: #8b4513;
+    --color-secondary: #3a2e21;
+    --color-background: #f5e9d9;
+    --color-light: #fff;
+    --color-accent: #e0d5c1;
+    --color-highlight: #c19a6b;
+    --font-primary: 'Palatino Linotype', serif;
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 30px;
+    --spacing-xlarge: 50px;
+    --border-radius: 8px;
+}
 
 body {
-    background-color: $corFundo;
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-secondary);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-medium);
 }
 
-* {
-    color: rgb(5, 37, 37);
-}
-
-p {
-    background-color: black;
+.page {
+    width: 100%;
 }

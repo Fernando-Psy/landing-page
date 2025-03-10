@@ -7,6 +7,122 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <h1>Olá</h1>
+    <body class="page">
+        <header class="header">
+            <h1 class="header__title">As Terras de Arda</h1>
+            <p class="header__subtitle">Explorando a Terra Média e os reinos de O Senhor dos Anéis</p>
+        </header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                <li class="nav__item"><a href="#regioes" class="nav__link">Regiões</a></li>
+                <li class="nav__item"><a href="#mapa" class="nav__link">Mapa</a></li>
+                <li class="nav__item"><a href="#povos" class="nav__link">Povos</a></li>
+                <li class="nav__item"><a href="#historia" class="nav__link">História</a></li>
+            </ul>
+        </nav>
+
+        <section id="sobre" class="section">
+            <h2 class="section__title">Bem-vindo à Terra Média</h2>
+            <div class="section__content">
+                <p>A Terra Média é o cenário fictício criado por J.R.R. Tolkien onde se passam as histórias de O Hobbit e O Senhor dos Anéis. Este mundo fictício é habitado por diversas raças como Hobbits, Elfos, Anões, Homens e criaturas fantásticas.</p>
+                <p>Arda é o nome do mundo onde a Terra Média está localizada, sendo apenas um dos continentes deste vasto universo. A história da Terra Média estende-se por milhares de anos, dividida em Eras, cada uma marcada por grandes eventos e batalhas entre as forças do bem e do mal.</p>
+            </div>
+
+            <div class="quote">
+                "Nem tudo o que é ouro reluz, nem todos os que vagueiam estão perdidos." — Bilbo Bolseiro
+            </div>
+        </section>
+
+        <section id="regioes" class="section">
+            <h2 class="section__title">Regiões da Terra Média</h2>
+            <div class="regions section__content">
+                <div class="region-card">
+                    <img src="src/images/gondor.webp" alt="Gondor" class="region-card__image">
+                    <h3 class="region-card__title">Gondor</h3>
+                    <p class="region-card__description">O grande reino dos homens no sul, fundado por Isildur e Anárion. Sua capital é Minas Tirith, a Cidade Branca.</p>
+                </div>
+
+                <div class="region-card">
+                    <img src="src/images/rohan.jpg" alt="Rohan" class="region-card__image">
+                    <h3 class="region-card__title">Rohan</h3>
+                    <p class="region-card__description">Reino dos Senhores dos Cavalos, aliados de Gondor. Suas planícies vastas são ideais para a criação de cavalos.</p>
+                </div>
+
+                <div class="region-card">
+                    <img src="src/images/condado.jpg" alt="Condado" class="region-card__image">
+                    <h3 class="region-card__title">O Condado</h3>
+                    <p class="region-card__description">Terra pacífica dos Hobbits, localizada no noroeste da Terra Média. Conhecido por suas colinas verdes e vida tranquila.</p>
+                </div>
+
+                <div class="region-card">
+                    <img src="src/images/mordor.jpeg" alt="Mordor" class="region-card__image">
+                    <h3 class="region-card__title">Mordor</h3>
+                    <p class="region-card__description">A terra sombria dominada por Sauron, cercada por montanhas e habitada por orcs. Seu centro é a Montanha da Perdição.</p>
+                </div>
+
+                <div class="region-card">
+                    <img src="src/images/valfenda.jpg" alt="Rivendell" class="region-card__image">
+                    <h3 class="region-card__title">Valfenda (Rivendell)</h3>
+                    <p class="region-card__description">O refúgio élfico fundado por Elrond, conhecido como a Última Casa Amiga a Leste do Mar.</p>
+                </div>
+
+                <div class="region-card">
+                    <img src="src/images/Lothlorien.jpg" alt="Lothlórien" class="region-card__image">
+                    <h3 class="region-card__title">Lothlórien</h3>
+                    <p class="region-card__description">A floresta dourada governada por Galadriel e Celeborn, último bastião dos Elfos Silvanos na Terra Média.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mapa" class="section map">
+            <h2 class="section__title">Mapa da Terra Média</h2>
+            <div class="map__container section__content">
+                <img src="src/images/terramedia.png" alt="Mapa da Terra Média" class="map__image">
+            </div>
+        </section>
+
+        <section id="povos" class="section peoples">
+            <h2 class="section__title">Povos da Terra Média</h2>
+            <ul class="peoples__list section__content">
+                <li class="peoples__item"><strong>Hobbits:</strong> Pequenos seres pacíficos que habitam o Condado, conhecidos por seu amor à boa comida e conforto.</li>
+                <li class="peoples__item"><strong>Elfos:</strong> Os primogênitos de Ilúvatar, imortais e sábios, com profunda conexão com a natureza e as artes.</li>
+                <li class="peoples__item"><strong>Anões:</strong> Grandes mineiros e artesãos, criados por Aulë, habitam principalmente montanhas e cavernas.</li>
+                <li class="peoples__item"><strong>Homens:</strong> Mortais, mas com o dom da liberdade. Divididos em vários reinos como Gondor, Rohan e Númenor.</li>
+                <li class="peoples__item"><strong>Ents:</strong> Antigos pastores das árvores, lentos mas poderosos quando despertados.</li>
+                <li class="peoples__item"><strong>Orcs:</strong> Criaturas corrompidas a serviço do mal, criadas em escárnio aos Elfos.</li>
+            </ul>
+        </section>
+
+        <section id="historia" class="section history">
+            <h2 class="section__title">As Eras da Terra Média</h2>
+            <div class="section__content">
+                <div class="history__era">
+                    <h3 class="history__era-title">Primeira Era</h3>
+                    <p>Marcada pela luta contra Morgoth, o primeiro Senhor do Escuro, e pelos grandes feitos dos Elfos e Homens contra suas forças.</p>
+                </div>
+
+                <div class="history__era">
+                    <h3 class="history__era-title">Segunda Era</h3>
+                    <p>Período da ascensão e queda de Númenor, e da forja dos Anéis de Poder. Termina com a derrota de Sauron pela Última Aliança.</p>
+                </div>
+
+                <div class="history__era">
+                    <h3 class="history__era-title">Terceira Era</h3>
+                    <p>A era dos eventos de O Senhor dos Anéis, terminando com a destruição do Um Anel e a derrota final de Sauron.</p>
+                </div>
+
+                <div class="history__era">
+                    <h3 class="history__era-title">Quarta Era</h3>
+                    <p>A era dos Homens, quando os Elfos partem para as Terras Imortais e a magia começa a abandonar a Terra Média.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>FCDEV © 2025 - Site Temático de O Senhor dos Anéis</p>
+            <p>Esta é uma página de fãs sem fins lucrativos. O Senhor dos Anéis e todos os personagens relacionados são propriedade de The Tolkien Estate.</p>
+        </footer>
 </body>
 </html>

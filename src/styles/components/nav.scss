@@ -1,0 +1,29 @@
+.nav {
+    background-color: var(--color-secondary);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-medium);
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        margin: 0 15px;
+    }
+
+    &__link {
+        color: var(--color-background);
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    &__link:hover {
+        color: var(--color-highlight);
+    }
+}

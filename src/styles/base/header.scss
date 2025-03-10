@@ -1,0 +1,15 @@
+.header {
+    background-image: url("https://via.placeholder.com/1200x300");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    text-align: center;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-large);
+
+    &__title {
+        font-size: 3em;
+        color: var(--colo-primary);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0.3);
+    }
+}
