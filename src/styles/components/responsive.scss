@@ -1,0 +1,87 @@
+@media screen and (max-width: 1200px) {
+    body {
+        padding: var(--spacing-small);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav {
+        &__list {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            margin: 10px 0;
+        }
+    }
+
+    .regions {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .region-card {
+        &__image {
+            height: 150px;
+        }
+    }
+
+    .peoples {
+        &__list {
+            padding-left: var(--spacing-small);
+        }
+    }
+
+    .history {
+        &__era {
+            margin-bottom: var(--spacing-small);
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: var(--spacing-small);
+    }
+
+    .header {
+        text-align: center;
+
+        &__title {
+            font-size: 1.8rem;
+        }
+
+        &__subtitle {
+            font-size: 1rem;
+        }
+    }
+
+    .nav {
+        &__list {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            margin: 8px 0;
+        }
+    }
+
+    .regions {
+        grid-template-columns: 1fr;
+    }
+
+    .region-card {
+        &__image {
+            height: 200px;
+        }
+    }
+
+    .map {
+        &__container {
+            padding: var(--spacing-small);
+        }
+    }
+}
